@@ -14,3 +14,10 @@ function makeCoffee(suger = 1){
 console.log(makeCoffee(2));
 console.log(makeCoffee(7));
 console.log(makeCoffee());
+
+function calculateTotal(price, tax = 100){
+return price + tax ;
+}
+
+console.log(calculateTotal(1000));
+console.log(calculateTotal());
